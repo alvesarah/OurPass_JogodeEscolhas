@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Montagu+Slab:wght@300&family=Special+Elite&display=swap');
+
+:root {
+    --rosa_escuro: rgb(255, 183, 170);
+    --roxo: purple;
+    --roxo_fosco: rgb(122, 68, 122);
+
+    --montagu: 'Montagu Slab', serif;
+    --estonia: 'Estonia', cursive;
+    --courier: 'Courier New', Courier, monospace;
+    --specialElite: 'Special Elite', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: none;
+    background: linear-gradient(white, pink);
+}
+
+/* HEADER */
+.header, .footer {
+    padding: 20px 10px;
+    background-color: var(--rosa_escuro);
+    background-image: url(../imagens/sakura.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__titulo {
+    font-family: var(--montagu);
+}
+
+.header__ul {
+    width: 30%;
+
+    display: flex;
+    justify-content: end;
+}
+
+.header__ul-li {
+    padding: 0 20px;
+    list-style: none;
+    font-family: var(--courier);
+}
+
+.header__ul__li-a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+.header__ul__li-a:hover {
+    border: 3px dashed rgb(223, 54, 223);
+    color: var(--roxo);
+    text-decoration: underline;
+}
+
+/* MAIN */
+.main {
+    height: 45vw;
+    margin: 2%;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.main__figure {
+    width: 100%;
+    height: 100%;
+    background-image: url(../imagens/background_intro.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.main__figure-a, .main__div-a, .main__a-botaoPersonagem {
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    font-family: var(--courier);
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    
+    color: var(--roxo_fosco);
+    border: 1px dashed black;
+    background: pink;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.excessao {
+    margin: 39% 0;
+}
+
+.main__figure-a:hover, .main__div-a:hover {
+	background: var(--rosa_escuro);
+    border: none;
+	transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* FOOTER */
+.footer__div {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+.footer__div-h1 {
+    width: 40%;
+    font-family: var(--montagu);
+}
+
+.footer__div-copyrigth {
+    width: 60%;
+    text-align: start;
+    font-family: var(--courier);
+    font-size: 12px;
+}

@@ -1,0 +1,66 @@
+.main__section {
+    height: 70vh;
+}
+
+.main__section-h3 {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 2em;
+}
+
+/* Texto */
+.animacao {
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 0;
+    font-family: var(--specialElite);
+    font-size: 1.5em;
+    animation: typing normal 4s steps(60) both;
+
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main__section-pDois {
+    animation-delay: 4s;
+}
+
+.main__section-pTres {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    animation-delay: 5.5s;
+}
+
+.main__section-pQuatro {
+    animation-delay: 8s;
+}
+
+.main__section-pCinco {
+    margin-bottom: 20px;
+    animation-delay: 11.5s;
+}
+
+.main__section-pSeis {
+    animation-delay: 12.5s;
+}
+
+.main__section-pSete {
+    margin-bottom: 20px;
+    animation-delay: 16.5s;
+}
+
+.main__section-pOito {
+    margin-bottom: 20px;
+    animation-delay: 17.5s;
+}
+
+.main__div {
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes typing {
+    100% {
+        max-width: 100%;
+    }
+}

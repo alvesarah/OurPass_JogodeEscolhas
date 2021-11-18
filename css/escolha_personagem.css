@@ -1,0 +1,65 @@
+.main__div-personagens {
+    
+}
+
+.main__div-botao-personagens {
+    display: flex;
+    justify-content: center;
+}
+
+.botaoPersonagens {
+    margin: 10px;
+}
+
+#draken {
+    display: none;
+}
+
+#draken:target {
+    display: block;
+}
+
+#eve {
+    display: none;
+}
+
+#eve:target {
+    display: block;
+}
+
+#ryon {
+    display: none;
+}
+
+#ryon:target {
+    display: block;
+}
+
+.main__div-personagens-h1 {
+    text-align: center;
+    margin: 10px 0 30px 0;
+}
+
+.main__div-personagens-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__div-personagens-img {
+    width: 30%;
+    margin-left: 20px;
+}
+
+.main__div-personagens-ul {
+    margin-right: 30px;
+}
+
+.main__div-personagens-ul-li {
+    list-style: none;
+    margin: 20px 20px;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: var(--courier);
+    font-weight: bold;
+}
