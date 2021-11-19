@@ -24,56 +24,101 @@
                     <a class="main__a-botaoPersonagem botaoPersonagens" href="#draken">Draken</a>
                     <a class="main__a-botaoPersonagem botaoPersonagens" href="#eve">Eve</a>
                     <a class="main__a-botaoPersonagem botaoPersonagens" href="#ryon">Ryon</a>
-                    <a class="main__a-botaoPersonagem botaoPersonagens" id="botaoEscolhaPersonagem">Escolha Personagem</a> 
                 </div>
-
-                <div id="draken">
-                    <h1 class="main__div-personagens-h1">Draken Miyazaki</h1>
-                    <div class="main__div-personagens-div">
-                        <img class="main__div-personagens-img" src="./imagens/personagens/Draken/draken_intro.png">
-                        <ul class="main__div-personagens-ul">
-                            <li class="main__div-personagens-ul-li">Codinome: V.I.P</li>
-                            <li class="main__div-personagens-ul-li">Status: Ex-vilão, atual herói</li>
-                            <li class="main__div-personagens-ul-li">Idade: 26 anos</li>
-                            <li class="main__div-personagens-ul-li">Altura: 1,88</li>
-                            <li class="main__div-personagens-ul-li">Individualidade: Silenciador</li>
-                            <li class="main__div-personagens-ul-li">&rarr;Pode roubar o poder dos outros os deixando sem.</li>
-                            <li class="main__div-personagens-ul-li">&rarr;Habilidade ocular, para roubar o poder basta olhar nos olhos dela.</li>
-                        </ul>
+                
+                <figure class="main__figure-personagens">
+                    <img src="./imagens/personagens/Draken/draken_intro.png" class="main__div-personagens-img">
+                    <img src="./imagens/personagens/Eve/eve_intro.png" class="main__div-personagens-img">
+                    <img src="./imagens/personagens/Ryon/ryon_intro.png" class="main__div-personagens-img">
+                </figure>
+                
+                <div class="div__main-botaoEscolha">
+                    <a class="main__a-botaoPersonagem botaoEscolha" id="botaoEscolhaPersonagem">Escolha Personagem</a>
+                </div>
+                <!-- MODAL -->
+                
+                <div id="draken" class="modal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <header class="header container">
+                            <a href="#" class="closebtn">×</a>
+                            <h2 class="main__div-personagens-h2">Draken Miyazaki</h2>
+                        </header>
+                        <div class="container">
+                            <div class="main__div-personagens-div">
+                                <img class="main__div-personagens-img" src="./imagens/personagens/Draken/draken_intro.png">
+                                <ul class="main__div-personagens-ul">
+                                    <li class="main__div-personagens-ul-li">Codinome: V.I.P</li>
+                                    <li class="main__div-personagens-ul-li">Status: Ex-vilão, atual herói</li>
+                                    <li class="main__div-personagens-ul-li">Idade: 26 anos</li>
+                                    <li class="main__div-personagens-ul-li">Altura: 1,88</li>
+                                    <li class="main__div-personagens-ul-li">Individualidade: Silenciador</li>
+                                    <li class="main__div-personagens-ul-li">&rarr;Pode roubar o poder dos outros os deixando sem.</li>
+                                    <li class="main__div-personagens-ul-li">&rarr;Habilidade ocular, para roubar o poder basta olhar nos olhos dela.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <footer class="footer container">
+                            <p>Modal footer</p>
+                        </footer>
+                        </div>
                     </div>
                 </div>
 
-                <div id="eve">
-                    <h1 class="main__div-personagens-h1">Eve Hirawa</h1>
-                    <div class="main__div-personagens-div">
-                        <img class="main__div-personagens-img" src="./imagens/personagens/Eve/eve_intro.png">
-                        <ul class="main__div-personagens-ul">
-                            <li class="main__div-personagens-ul-li">Codinome: Eletra</li>
-                            <li class="main__div-personagens-ul-li">Status: Herói</li>
-                            <li class="main__div-personagens-ul-li">Idade: 24 anos</li>
-                            <li class="main__div-personagens-ul-li">Altura: 1,65</li>
-                            <li class="main__div-personagens-ul-li">Individualidade: Eletricidade</li>
-                            <li class="main__div-personagens-ul-li">&rarr;Ela consegue criar eletricidade, seja como for.</li>
-                            <li class="main__div-personagens-ul-li">&rarr;Seu poder não tem limite, a deixando criar eletricidade em grandes quantidades.</li>
-                        </ul>
+                <div id="eve" class="modal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <header class="header container">
+                                <a href="#" class="closebtn">×</a>
+                                <h2 class="main__div-personagens-h2">Eve Hirawa</h2>
+                            </header>
+                            <div class="main__div-personagens-div">
+                                <img class="main__div-personagens-img" src="./imagens/personagens/Eve/eve_intro.png">
+                                <ul class="main__div-personagens-ul">
+                                    <li class="main__div-personagens-ul-li">Codinome: Eletra</li>
+                                    <li class="main__div-personagens-ul-li">Status: Herói</li>
+                                    <li class="main__div-personagens-ul-li">Idade: 24 anos</li>
+                                    <li class="main__div-personagens-ul-li">Altura: 1,65</li>
+                                    <li class="main__div-personagens-ul-li">Individualidade: Eletricidade</li>
+                                    <li class="main__div-personagens-ul-li">&rarr;Ela consegue criar eletricidade, seja como for.</li>
+                                    <li class="main__div-personagens-ul-li">&rarr;Seu poder não tem limite, a deixando criar eletricidade em grandes quantidades.</li>
+                                </ul>
+                            </div>
+                            <footer class="footer container">
+                                <p>Modal footer</p>
+                            </footer>
+                        </div>
                     </div>
                 </div>
 
-                <div id="ryon">
-                    <h1 class="main__div-personagens-h1">Ryon Oshiro</h1>
-                    <div class="main__div-personagens-div">
-                        <img class="main__div-personagens-img" src="./imagens/personagens/Ryon/ryon_intro.png">
-                        <ul class="main__div-personagens-ul">
-                            <li class="main__div-personagens-ul-li">Codinome: Asura</li>
-                            <li class="main__div-personagens-ul-li">Status: Vilão</li>
-                            <li class="main__div-personagens-ul-li">Idade: 26 anos</li>
-                            <li class="main__div-personagens-ul-li">Altura: 1,90</li>
-                            <li class="main__div-personagens-ul-li">Individualidade: Murmurador</li>
-                            <li class="main__div-personagens-ul-li">&rarr;Lê e controla mentes.</li>
-                            <li class="main__div-personagens-ul-li">&rarr;Tem habilidade de distorcer memórias e introduzir também, usado em excesso pode matar o portador do poder.</li>
-                        </ul>
+                <div id="ryon" class="modal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <header class="header container">
+                            <a href="#" class="closebtn">×</a>
+                            <h2 class="main__div-personagens-h2">Ryon Oshiro</h2>
+                        </header>
+                        <div class="container">
+                            <div class="main__div-personagens-div">
+                                <img class="main__div-personagens-img" src="./imagens/personagens/Ryon/ryon_intro.png">
+                                <ul class="main__div-personagens-ul">
+                                    <li class="main__div-personagens-ul-li">Codinome: Asura</li>
+                                    <li class="main__div-personagens-ul-li">Status: Vilão</li>
+                                    <li class="main__div-personagens-ul-li">Idade: 26 anos</li>
+                                    <li class="main__div-personagens-ul-li">Altura: 1,90</li>
+                                    <li class="main__div-personagens-ul-li">Individualidade: Murmurador</li>
+                                    <li class="main__div-personagens-ul-li">&rarr;Lê e controla mentes.</li>
+                                    <li class="main__div-personagens-ul-li">&rarr;Tem habilidade de distorcer memórias e introduzir também, usado em excesso pode matar o portador do poder.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <footer class="footer container">
+                            <p>Modal footer</p>
+                        </footer>
+                        </div>
                     </div>
                 </div>
+
             </div>
         </main>
 

@@ -104,11 +104,12 @@ body {
     margin: 39% 0;
 }
 
-.main__figure-a:hover, .main__div-a:hover {
+.main__figure-a:hover, .main__div-a:hover{
 	background: var(--rosa_escuro);
     border: none;
 	transform: scale(1.1);
     cursor: pointer;
+    text-decoration: underline;
 }
 
 /* FOOTER */
