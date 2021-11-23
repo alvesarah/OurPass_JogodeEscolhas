@@ -1,12 +1,35 @@
 /* Introdução Draken */
 .main__section {
-    height: 87vh;
-    margin-left: 20px;
+    padding: 0 20px;
+    background-color: white;
     
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: center;
+}
 
+.tamanho_padrao {
+    height: 40%;
+}
+
+.teste_padrao {
+    height: 60%;
+}
+
+.tamanho_maior {
+    height: 50%;
+}
+
+.teste_maior {
+    height: 50%;
+}
+
+.tamanho_maior_ainda {
+    height: 60%;
+}
+
+.teste_maior_ainda {
+    height: 40%;
 }
 
 .animacao {
@@ -14,7 +37,7 @@
     overflow: hidden;
     max-width: 0;
     font-family: var(--specialElite);
-    font-size: 1.2em;
+    font-size: 17px;
     animation: typing normal 4s steps(60) both;
 }
 
@@ -22,6 +45,71 @@
     100% {
         max-width: 100%;
     }
+}
+
+.botaoEscolhas_button {
+    width: 100px;
+    margin-left: 45%;
+}
+
+/* Background Image Fases */
+.background_faseUm {
+    background-image: url("../imagens/cenarios/cenario_porta_metal.jpg");
+    height: 100%;
+    background-size: 100% 75%;
+}
+
+.background_faseDois {
+    background-image: url("../imagens/cenarios/estacao_trem_dia.jpg");
+    height: 88vh;
+}
+
+.background_faseDoisCont {
+    background-image: url("../imagens/cenarios/cenario_vista_estacao_trem.jpg");
+    height: 88vh;
+    background-size: 100% 75%;
+}
+
+.background_faseTres {
+    background-image: url("../imagens/cenarios/cenario_praca1.jpg");
+    height: 88vh;
+    background-size: 100% 75%;
+}
+
+.background_faseTresCont {
+    background-image: url("../imagens/cenarios/cenario_rua_noite.jpg");
+    height: 88vh;
+    background-size: 100% 75%;
+}
+
+.background_faseTresContDois {
+    background-image: url("../imagens/cenarios/cenario_sala_dia.jpg");
+    height: 88vh;
+    background-size: 100% 75%;
+}
+
+.background_faseTresContTres {
+    background-image: url("../imagens/cenarios/cenario_sala_dia.jpg");
+    height: 88vh;
+    background-size: 100% 75%;
+}
+
+.background_escolhaFinal {
+    background-image: url("../imagens/cenarios/cenario_sala_dia.jpg");
+    height: 88vh;
+    background-size: 100% 75%;
+}
+
+.background_escolhaFinalCont {
+    background-image: url("../imagens/cenarios/cenario_sala_dia.jpg");
+    height: 88vh;
+    background-size: 100% 75%;
+}
+
+.background_fim {
+    background-image: url("../imagens/cenarios/cenario_praca3.jpg");
+    height: 88vh;
+    background-size: 100% 75%;
 }
 
 /* Texto Introdução */

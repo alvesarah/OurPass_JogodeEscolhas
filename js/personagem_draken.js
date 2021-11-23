@@ -49,12 +49,12 @@ function faseDois(){
 function faseTres(){
    
     alert("Digite apenas o número!");
-    var escolhaFaseTres = prompt("1 - Da casa dela\n2- Da praça onde eu estava a esperando");
+    var escolhaFaseTres = prompt("1 - Impedi-la de me acertar.\n2 - Tentar controlar Ryon com minha habilidade.");
 
     while(escolhaFaseTres != 1 && escolhaFaseTres != 2){
 
         alert('Escolha invalida');
-        escolhaFaseTres = prompt("1 - Caminho da direita\n2 - Caminho da esquerda")   ; 
+        escolhaFaseTres = prompt("1 - Impedi-la de me acertar.\n2 - Tentar controlar Ryon com minha habilidade.")   ; 
 
     }
 

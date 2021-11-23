@@ -19,26 +19,36 @@
             </ul>
         </header>
 
+        <audio autoplay loop controls id="playAudio">
+            <source src="../../trilha_sonora/musica_suspense.mp3">
+        </audio>
+
         <main class="main">
-            <section class="main__section">
-                <p class="main__pUm-faseUm animacao">Arregalo os olhos e puxo o ar para os meus pulmões, estou suado e ofegante e não consigo identificar onde estou. Minha cabeça </p>
-                <p class="main__pUmCont-faseUm animacao">está dando pontadas e quando levanto, tenho que me apoiar para não cair no chão.</p>
-
-                <p class="main__pDois-faseUm animacao">O ambiente está escuro e preciso forçar minha visão para enxergar algo, é como se eu estivesse em um túnel e tem dois caminhos.</p>
-
-                <p class="main__pTres-faseUm animacao">Se ando um pouco para a direita, vejo uma entrada de luz que pode ser uma provável saída e se vou para a esquerda, consigo ver </p>
-                <p class="main__pTresCont-faseUm animacao">uma porta de metal meio enferrujada, acredito que se forçá-la ela pode acabar cedendo.</p>
-
-                <p class="main__pQuatro-faseUm animacao">Eu escolho...</p>
-
-                <div class="botaoEscolhas">
-                    <p class="main__pCinco-faseUm animacao">1 - Caminho da direita.</p> 
-                    <p class="main__pSeis-faseUm animacao">2 - Caminho da esquerda.</p>
+            <div class="background_faseUm">
+                <div class="teste_padrao">
+                   aaaa
                 </div>
+                <section class="main__section tamanho_padrao">
+                    <p class="main__pUm-faseUm animacao">Arregalo os olhos e puxo o ar para os meus pulmões, estou suado e ofegante e não consigo identificar onde estou. Minha cabeça </p>
+                    <p class="main__pUmCont-faseUm animacao">está dando pontadas e quando levanto, tenho que me apoiar para não cair no chão.</p>
 
-                <button onclick="faseUm()">Escolha Personagem</button>
-            </section>
+                    <p class="main__pDois-faseUm animacao">O ambiente está escuro e preciso forçar minha visão para enxergar algo, é como se eu estivesse em um túnel e tem dois caminhos.</p>
+
+                    <p class="main__pTres-faseUm animacao">Se ando um pouco para a direita, vejo uma entrada de luz que pode ser uma provável saída e se vou para a esquerda, consigo ver </p>
+                    <p class="main__pTresCont-faseUm animacao">uma porta de metal meio enferrujada, acredito que se forçá-la ela pode acabar cedendo.</p>
+
+                    <p class="main__pQuatro-faseUm animacao">Eu escolho...</p>
+
+                    <div class="botaoEscolhas">
+                        <p class="main__pCinco-faseUm animacao">1 - Caminho da direita.</p> 
+                        <p class="main__pSeis-faseUm animacao">2 - Caminho da esquerda.</p>
+                    </div>
+
+                    <button class="botaoEscolhas_button" onclick="faseUm()">Responder</button>
+                </section>
+            </div>
         </main>
+        <script src="../../js/personagem_draken.js"></script>
         
         <footer class="footer">
             <div class="footer__div">
@@ -46,6 +56,5 @@
                 <p class="footer__div-copyrigth">Todos os direitos reservados &copy; 2021 Bokura No Kako</p>
             </div>
         </footer>
-        <script src="../../js/personagem_draken.js"></script>
     </body>
 </html>
