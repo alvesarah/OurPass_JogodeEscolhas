@@ -1,0 +1,544 @@
+/* Introdução Draken */
+.main__section {
+    height: 87vh;
+    margin-left: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+}
+
+.animacao {
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 0;
+    font-family: var(--specialElite);
+    font-size: 1.2em;
+    animation: typing normal 4s steps(60) both;
+}
+
+@keyframes typing {
+    100% {
+        max-width: 100%;
+    }
+}
+
+/* Texto Introdução */
+.main__pUm-intro {
+    margin-bottom: 10px;
+}
+
+.main__pDois-intro {
+    animation-delay: 2s;
+    margin-bottom: 10px;
+}
+
+.main__pTres-intro {
+    animation-delay: 3.5s;
+    margin-bottom: 10px;
+}
+
+.main__pQuatro-intro {
+    animation-delay: 5.3s;    
+}
+
+.main__pQuatroCont-intro {
+    animation-delay: 9.3s;
+    margin-bottom: 10px;
+}
+
+.main__pCinco-intro {
+    animation-delay: 13s;
+}
+
+/* Texto Primeira Fase */
+.main__pUmCont-faseUm {
+    margin-bottom: 10px;
+    animation-delay: 4.2s;
+}
+
+.main__pDois-faseUm {
+    margin-bottom: 10px;
+    animation-delay: 7s;
+}
+
+.main__pTres-faseUm {
+    animation-delay: 11s;
+}
+
+.main__pTresCont-faseUm {
+    margin-bottom: 10px;
+    animation-delay: 15s;
+}
+
+.main__pQuatro-faseUm {
+    margin-bottom: 10px;
+    animation-delay: 18s;
+}
+
+.botaoEscolhas {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Botoes fase um */
+.main__pCinco-faseUm {
+    margin-bottom: 5px;
+}
+
+.main__pSeis-faseUm {
+
+}
+
+/* Texto Segunda Fase */
+.main__pUm-faseDois {
+    margin-bottom: 10px;
+}
+
+.main__pDois-faseDois {
+    margin-bottom: 10px;
+    animation-delay: 3s;
+}
+
+.main__pTres-faseDois {
+    margin-bottom: 10px;
+    animation-delay: 6s;
+}
+
+.main__pQuatro-faseDois {
+    animation-delay: 9.5s;
+
+}
+
+.main__pQuatroCont-faseDois {
+    animation-delay: 13s;
+}
+
+.main__pQuatroContDois-faseDois {
+    animation-delay: 17s;
+}
+
+.main__pQuatroContTres-faseDois {
+    margin-bottom: 10px;
+    animation-delay: 20.5s;
+}
+
+.main__pSeis-faseDois {
+    animation-delay: 22.5s;
+}
+
+.main__pSeisCont-faseDois {
+    animation-delay: 26.5s;
+}
+
+.main__pSeisContDois-faseDois {
+    animation-delay: 30s;
+    
+}
+
+/* Texto Segunda Fase Continuação */
+.main__pSeisSeparado-faseDois {
+    margin-bottom: 10px;
+}
+
+.main__pSete-faseDois {
+    animation-delay: 3.5s;
+}
+
+.main__pSeteCont-faseDois {
+    margin-bottom: 10px;
+    animation-delay: 7s;
+}
+
+.main__pOito-faseDois {
+    margin-bottom: 10px;
+    animation-delay: 9.5s;
+}
+
+.main__pNove-faseDois {
+    animation-delay: 12s;
+}
+
+.main__pNoveCont-faseDois {
+    margin-bottom: 10px;
+    animation-delay: 16s;
+}
+
+.main__pDez-faseDois {
+    margin-bottom: 10px;
+    animation-delay: 19s;
+}
+
+.main__pOnze-faseDois {
+    margin-bottom: 10px;
+    animation-delay: 22.5s;
+}
+
+.main__pDoze-faseDois {
+    margin-bottom: 10px;
+}
+
+/* Texto Terceira Fase */
+.main__pUm-faseTres {
+    margin-bottom: 10px;
+}
+
+.main__pDois-faseTres {
+    animation-delay: 3.5s;
+}
+
+.main__pDoisCont-faseTres {
+    margin-bottom: 10px;
+    animation-delay: 7.5s;
+}
+
+.main__pTres-faseTres {
+    animation-delay: 10s;
+}
+
+.main__pTresCont-faseTres{
+    margin-bottom: 10px;
+    animation-delay: 13.5s;
+}
+
+.main__pQuatro-faseTres {
+    animation-delay: 16s;
+}
+
+.main__pQuatroCont-faseTres {
+    animation-delay: 20s;
+}
+
+.main__pQuatroContDois-faseTres {
+    margin-bottom: 10px;
+    animation-delay: 24s;
+}
+
+.main__pCinco-faseTres {
+    animation-delay: 25.5s;
+}
+
+.main__pCincoCont-faseTres {
+    margin-bottom: 10px;
+    animation-delay: 30s;
+}
+
+/* Terceira Fase Tres Cont */
+.main__pSeis-faseTres {
+
+}
+
+.main__pSeisCont-faseTres {
+    margin-bottom: 10px;
+    animation-delay: 4s;
+}
+
+.main__pSete-faseTres {
+    margin-bottom: 10px;
+    animation-delay: 4.5s;
+}
+
+.main__pOito-faseTres {
+    margin-bottom: 10px;
+    animation-delay: 7s;
+}
+
+.main__pNove-faseTres {
+    animation-delay: 10s;
+}
+
+.main__pNoveCont-faseTres {
+    margin-bottom: 10px;
+    animation-delay: 14s;
+}
+
+.main__pDez-faseTres {
+    animation-delay: 15.5s;
+}
+
+.main__pDezCont-faseTres {
+    animation-delay: 19.5s;
+}
+
+.main__pDezContDois-faseTres {
+    margin-bottom: 10px;
+    animation-delay: 23.5s;
+}
+
+/* Texto Fase Tres Cont 2*/
+
+.main__pOnze-faseTres {
+    margin-bottom: 10px;
+}
+
+.main__pDoze-faseTres {
+    animation-delay: 3s; 
+}
+
+.main__pDozeCont-faseTres {
+    animation-delay: 7s;
+}
+
+.main__pDozeContDois-faseTres {
+    margin-bottom: 10px;
+    animation-delay: 10.5s;
+}
+
+.main__pTreze-faseTres {
+    margin-bottom: 10px;
+    animation-delay: 12.5s;
+}
+
+.main__pQuatorze-faseTres {
+    margin-bottom: 10px;
+    animation-delay: 15s;
+}
+
+.main__pQuinze-faseTres{
+    animation-delay: 17s;
+}
+
+.main__pQuinzeCont-faseTres {
+    margin-bottom: 10px;
+    animation-delay: 21s;
+}
+
+.main__pDezesseis-faseTres {
+    margin-bottom: 10px;
+    animation-delay: 22s;
+}
+
+/* Texto Fase Tres Cont 3 */
+.main__pDezesete-faseTres {
+
+}
+
+.main__pDezeseteCont-faseTres {
+    margin-bottom: 10px;
+    animation-delay: 4s;
+}
+
+.main__pDezoito-faseTres {
+    margin-bottom: 10px;
+    animation-delay: 7s;
+}
+
+.main__pDezenove-faseTres {
+    animation-delay: 9.5s;
+}
+
+.main__pDezenoveCont-faseTres {
+    animation-delay: 13.5s;
+}
+
+.main__pDezenoveContDois-faseTres {
+    animation-delay: 17.5s;
+}
+
+.main__pDezenoveContTres-faseTres {
+    margin-bottom: 10px;
+    animation-delay: 21.5s;
+}
+
+.main__pVinte-faseTres {
+    animation-delay: 24.5s;
+}
+
+.main__pVinteCont-faseTres {
+    animation-delay: 28.5s;
+}
+
+.main__pVinteContDois-faseTres {
+    margin-bottom: 10px;
+    animation-delay: 32.5s;
+}
+
+.main__pVinteUm-faseTres {
+    animation-delay: 33s;
+}
+
+.main__pVinteUmCont-faseTres {
+    animation-delay: 37.5s;
+}
+
+.main__pVinteUmContDois-faseTres {
+    margin-bottom: 10px;
+    animation-delay: 41.5s;
+}
+
+.main__pVinteDois-faseTres {
+    margin-bottom: 10px;
+    animation-delay: 43.5s;
+}
+
+/* Texto Escolha Final */
+.main__pUm-escolhaFinal {
+
+}
+
+.main__pUmCont-escolhaFinal {
+    margin-bottom: 10px;
+    animation-delay: 3.5s;
+}
+
+.main__pDois-escolhaFinal {
+    margin-bottom: 10px;
+    animation-delay: 5s;
+}
+
+.main__pTres-escolhaFinal {
+    animation-delay: 8.5s;
+}
+
+.main__pTresCont-escolhaFinal {
+    margin-bottom: 10px;
+    animation-delay: 12s;
+}
+
+.main__pQuatro-escolhaFinal {
+    animation-delay: 14.5s;
+}
+
+.main__pQuatroCont-escolhaFinal{
+    animation-delay: 17.5s;
+}
+
+.main__pQuatroContDois-escolhaFinal {
+    margin-bottom: 10px;
+    animation-delay: 21s;
+}
+
+.main__pCinco-escolhaFinal {
+    animation-delay: 22s;
+}
+
+.main__pCincoCont-escolhaFinal {
+    margin-bottom: 10px;
+    animation-delay: 26s;
+}
+
+.main__pSeis-escolhaFinal {
+    margin-bottom: 10px;
+    animation-delay: 30s;
+}
+
+.main__pSete-escolhaFinal {
+    margin-bottom: 10px;
+    animation-delay: 34s;
+}
+
+/* Texto Escolha Final Cont */
+.main__pOito-escolhaFinal {
+
+}
+
+.main__pOitoCont-escolhaFinal {
+    margin-bottom: 10px;
+    animation-delay: 3.5s;
+}
+
+.main__pNove-escolhaFinal {
+    margin-bottom: 10px;
+    animation-delay: 5s;
+}
+
+.main__pDez-escolhaFinal {
+    margin-bottom: 10px;
+    animation-delay: 7s;
+}
+
+.main__pOnze-escolhaFinal {
+    margin-bottom: 10px;
+    animation-delay: 9.5s;
+}
+
+.main__pDoze-escolhaFinal {
+    animation-delay: 13s;
+}
+
+.main__pDozeCont-escolhaFinal {
+    animation-delay: 17s;
+}
+
+.main__pDozeContDois-escolhaFinal {
+    animation-delay: 21s;
+}
+
+.main__pDozeContTres-escolhaFinal {
+    animation-delay: 25s;
+}
+
+.main__pDozeContQuatro-escolhaFinal {
+    animation-delay: 29s;
+}
+
+.main__pDozeContCinco-escolhaFinal {
+    animation-delay: 33s;
+}
+
+.main__pDozeContSeis-escolhaFinal {
+    animation-delay: 37s;
+}
+
+.main__pDozeContSete-escolhaFinal {
+    margin-bottom: 10px;
+    animation-delay: 40.5s;
+}
+
+.main__pTreze-escolhaFinal {
+    margin-bottom: 10px;
+    animation-delay: 43.5s;
+}
+
+.main__pQuatorze-escolhaFinal {
+    margin-bottom: 10px;
+    animation-delay: 47s;
+}
+
+/* Texto Fim Draken */
+
+.main__pUm-fim_draken {
+    margin-bottom: 10px;
+}
+
+.main__pDois-fim_draken {
+    animation-delay: 4s;
+}
+
+.main__pDoisCont-fim_draken {
+    margin-bottom: 10px;
+    animation-delay: 8s;
+}
+
+.main__pTres-fim_draken {
+    margin-bottom: 10px;
+    animation-delay: 9.5s;
+}
+
+.main__pQuatro-fim_draken {
+    margin-bottom: 10px;
+    animation-delay: 12.5s;
+}
+
+.main__pCinco-fim_draken {
+    animation-delay: 15.5s;
+}
+
+.main__pCincoCont-fim_draken {
+    margin-bottom: 10px;
+    animation-delay: 19s;
+}
+
+.main__pSeis-fim_draken {
+    animation-delay: 21s;
+}
+
+.main__pSeisCont-fim_draken {
+    animation-delay: 25s;
+}
+
+.main__pSeisContDois-fim_draken {
+    margin-bottom: 10px;
+    animation-delay: 29s;
+}

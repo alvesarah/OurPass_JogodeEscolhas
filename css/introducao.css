@@ -19,7 +19,9 @@
 
 body {
     overflow-x: none;
-    background: linear-gradient(white, pink);
+    background-image: url("../imagens/background_historia.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* HEADER */
@@ -69,7 +71,7 @@ body {
     height: 45vw;
     margin: 2%;
     border: 2px solid black;
-    background-color: white;
+    background: white;
 }
 
 .main__figure {

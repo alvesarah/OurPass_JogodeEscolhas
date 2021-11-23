@@ -1,0 +1,342 @@
+@keyframes typing {
+    100% {
+        max-width: 100%;
+    }
+}
+
+.animacao {
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 0;
+    font-family: var(--specialElite);
+    font-size: 1.2em;
+    animation: typing normal 4s steps(60) both;
+}
+
+.main__section {
+    height: 87vh;
+    margin-left: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.botaoEscolhas {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Introdução Ryon */
+
+.main__pUm-introducao {
+    margin-bottom: 10px;
+}
+
+.main__pDois-introducao {
+    margin-bottom: 10px;
+    animation-delay: 2.5s;
+}
+
+.main__pTres-introducao {
+    animation-delay: 5s;
+}
+
+.main__pTresCont-introducao {
+    margin-bottom: 10px;
+    animation-delay: 9s;
+}
+
+.main__pQuatro-introducao {
+    animation-delay: 12s;
+}
+
+.main__pQuatroCont-introducao {
+    margin-bottom: 10px;
+    animation-delay: 16s;
+}
+
+/* Primeira Fase */
+
+.main__pUm-faseUm {
+    
+}
+
+.main__pUmCont-faseUm {
+    animation-delay: 4s;
+}
+
+.main__pUmContDois-faseUm {
+    margin-bottom: 10px;
+    animation-delay: 8s;
+}
+
+.main__pDois-faseUm {
+    animation-delay: 10s;
+}
+
+.main__pDoisCont-faseUm {
+    margin-bottom: 10px;
+    animation-delay: 14s;
+}
+
+.main__pTres-faseUm {
+    margin-bottom: 10px;
+    animation-delay: 17s;
+}
+
+.main__pQuatro-faseUm {
+    margin-bottom: 10px;
+    animation-delay: 20s;
+}
+
+.main__pCinco-faseUm {
+    animation-delay: 23s;
+}
+
+.main__pCincoCont-faseUm {
+    margin-bottom: 10px;
+    animation-delay: 25.5s;
+}
+
+.main__pSeis-faseUm {
+    margin-bottom: 10px;
+    animation-delay: 28.5s;
+}
+
+.main__pSete-faseUm {
+    margin-bottom: 10px;
+    animation-delay: 30.5s;
+}
+
+.main__pOito-faseUm {
+    margin-bottom: 10px;
+    animation-delay: 32.5s;
+}
+
+/* Segunda Fase */
+
+.main__pUm-faseDois {
+    margin-bottom: 10px;
+}
+
+.main__pDois-faseDois {
+    animation-delay: 2s;
+
+}
+
+.main__pDoisCont-faseDois {
+    margin-bottom: 10px;
+    animation-delay: 5.5s;
+}
+
+.main__pTres-faseDois {
+    margin-bottom: 10px;
+    animation-delay: 9s;
+}
+
+.main__pQuatro-faseDois {
+    animation-delay: 13s;
+}
+
+.main__pQuatroCont-faseDois {
+    margin-bottom: 10px;
+    animation-delay: 17s;
+}
+
+.main__pCinco-faseDois {
+    animation-delay: 19s;
+}
+
+.main__pCincoCont-faseDois {
+    margin-bottom: 10px;
+    animation-delay: 23s;
+}
+
+.main__pSeis-faseDois {
+    animation-delay: 25.5s;
+}
+
+.main__pSeisCont-faseDois {
+    margin-bottom: 10px;
+    animation-delay: 29.5s;
+}
+
+.main__pSete-faseDois {
+    margin-bottom: 10px;
+    animation-delay: 30.5s;
+}
+
+.botaoEscolha_faseDois {
+    margin-bottom: 10px;
+    animation-delay: 34.5s;
+}
+
+/* Fase Tres */
+
+.main__pUm-faseTres {
+
+}
+
+.main__pUmCont-faseTres {
+    margin-bottom: 10px;
+    animation-delay: 4s;
+}
+
+.main__pDois-faseTres {
+    margin-bottom: 10px;
+    animation-delay: 5.5s;
+}
+
+.main__pTres-faseTres {
+    animation-delay: 8.5s;
+}
+
+.main__pTresCont-faseTres {
+    margin-bottom: 10px;
+    animation-delay: 12.5s;
+}
+
+.main__pQuatro-faseTres {
+    margin-bottom: 10px;
+    animation-delay: 15.5s;
+}
+
+.main__pCinco-faseTres {
+    animation-delay: 18s;
+}
+
+.main__pCincoCont-faseTres {
+    margin-bottom: 10px;
+    animation-delay: 21.5s;
+}
+
+.main__pSeis-faseTres {
+    animation-delay: 22.5s;
+}
+
+.main__pSeisCont-faseTres {
+    margin-bottom: 10px;
+    animation-delay: 26.5s;
+}
+
+/* Fase Tres Cont */
+
+.main__pSete-faseTres {
+
+}
+
+.main__pSeteCont-faseTres {
+    margin-bottom: 10px;
+    animation-delay: 4s;
+}
+
+.main__pOito-faseTres {
+    animation-delay: 6s;
+}
+
+.main__pOitoCont-faseTres {
+    margin-bottom: 10px;
+    animation-delay: 10s;
+}
+
+.main__pNove-faseTres {
+    animation-delay: 14s;
+}
+
+.main__pNoveCont-faseTres {
+    margin-bottom: 10px;
+    animation-delay: 18s;
+}
+
+.main__pDez-faseTres {
+    margin-bottom: 10px;
+    animation-delay: 19s;
+}
+
+.botaoEscolhaFaseTres {
+    margin-bottom: 10px;
+    animation-delay: 20s;
+}
+
+/* Fim */
+
+.main__pUm-fim {
+    margin-bottom: 10px;
+}
+
+.main__pDois-fim {
+    animation-delay: 2s;
+}
+
+.main__pDoisCont-fim {
+    margin-bottom: 10px;
+    animation-delay: 6s;
+}
+
+.main__pTres-fim {
+    animation-delay: 10s;
+}
+
+.main__pTresCont-fim {
+    animation-delay: 14s;
+}
+
+.main__pTresContDois-fim {
+    margin-bottom: 10px;
+    animation-delay: 18s;
+}
+
+.main__pQuatro-fim {
+    margin-bottom: 10px;
+    animation-delay: 20s;
+}
+
+.main__pCinco-fim {
+    margin-bottom: 10px;
+    animation-delay: 24s;
+}
+
+.main__pSeis-fim {
+    margin-bottom: 10px;
+    animation-delay: 27.5s;
+}
+
+/* Fim Cont */
+
+.main__pUm-fimCont {
+    margin-bottom: 10px;
+}
+
+.main__pDois-fimCont {
+    margin-bottom: 10px;
+    animation-delay: 4s;
+}
+
+.main__pTres-fimCont {
+    margin-bottom: 10px;
+    animation-delay: 6.5s;
+}
+
+.main__pQuatro-fimCont {
+    animation-delay: 9.5s;
+}
+
+.main__pQuatroCont-fimCont {
+    margin-bottom: 10px;
+    animation-delay: 13.5s;
+}
+
+.main__pCinco-fimCont {
+    animation-delay: 16.5s;
+}
+
+.main__pCincoCont-fimCont {
+    margin-bottom: 10px;
+    animation-delay: 20.5s;
+}
+
+.main__pSeis-fimCont {
+    margin-bottom: 10px;
+    animation-delay: 21.5s;
+}

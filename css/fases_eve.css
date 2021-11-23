@@ -1,0 +1,773 @@
+@keyframes typing {
+    100% {
+        max-width: 100%;
+    }
+}
+
+.animacao {
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 0;
+    font-family: var(--specialElite);
+    font-size: 1.2em;
+    animation: typing normal 4s steps(60) both;
+}
+
+.main__section {
+    height: 87vh;
+    margin-left: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.botaoEscolhas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.botaoEscolhasExt {
+    display: block;
+}
+
+/* Introdução Eve */
+.um_intro{
+    
+}
+
+.umCont_intro{
+    margin-bottom: 10px;
+    animation-delay: 3.5s;
+}
+
+.dois_intro{
+    margin-bottom: 10px;
+    animation-delay: 5s;
+}
+
+.tres_intro{
+    animation-delay: 8.5s;
+}
+
+.tresCont_intro{
+    margin-bottom: 10px;
+    animation-delay: 12.5s;
+}
+
+/* Primeira Fase */
+.um_faseUm {
+
+}
+
+.umCont_faseUm {
+    margin-bottom: 10px;
+    animation-delay: 4s;
+}
+
+.dois_faseUm {
+    margin-bottom: 10px;
+    animation-delay: 6.5s;
+}
+
+.tres_faseUm {
+    margin-bottom: 10px;
+    animation-delay: 8s;
+}
+
+/* Segunda Fase */
+
+.um_faseDois {
+    
+}
+
+.umCont_faseDois {
+    margin-bottom: 10px;
+    animation-delay: 4s;
+}
+
+.dois_faseDois {
+    animation-delay: 7s;
+}
+
+.doisCont_faseDois {
+    margin-bottom: 10px;
+    animation-delay: 11s;
+}
+
+.tres_faseDois {
+    margin-bottom: 10px;
+    animation-delay: 12.5s;
+}
+
+.quatro_faseDois {
+    animation-delay: 16.5s;
+}
+
+.quatroCont_faseDois {
+    animation-delay: 20.5s;
+}
+
+.quatroContDois_faseDois {
+    margin-bottom: 10px;
+    animation-delay: 24.5s;
+}
+
+.cinco_faseDois {
+    margin-bottom: 10px;
+    animation-delay: 26.5s;
+}
+
+.seis_faseDois {
+    margin-bottom: 10px;
+    animation-delay: 27.5s;
+}
+
+/* Terceira Fase */
+
+.um_faseTres {
+    margin-bottom: 10px;
+}
+
+.dois_faseTres {
+    animation-delay: 1.5s;
+}
+
+.doisCont_faseTres {
+    animation-delay: 5s;
+}
+
+.doisContDois_faseTres {
+    margin-bottom: 10px;
+    animation-delay: 9s;
+}
+
+.tres_faseTres {
+    animation-delay: 10s;
+}
+
+.tresCont_faseTres {
+    margin-bottom: 10px;
+    animation-delay: 14s;
+}
+
+.quatro_faseTres {
+    margin-bottom: 10px;
+    animation-delay: 18s;
+}
+
+.cinco_faseTres {
+    margin-bottom: 10px;
+    animation-delay: 20.5s;
+}
+
+.seis_faseTres {
+    margin-bottom: 10px;
+    animation-delay: 21.5s;
+}
+
+/* Quarta Fase */
+
+.um_faseQuatro {
+    margin-bottom: 10px;
+}
+
+.dois_faseQuatro {
+    margin-bottom: 10px;
+    animation-delay: 2.5s;
+}
+
+.tres_faseQuatro {
+    margin-bottom: 10px;
+    animation-delay: 3.5s;
+}
+
+.quatro_faseQuatro {
+    animation-delay: 4.5s;
+}
+
+.quatroCont_faseQuatro {
+    animation-delay: 8.5s;
+}
+
+.quatroContDois_faseQuatro {
+    margin-bottom: 10px;
+    animation-delay: 12.5s;
+}
+
+.cinco_faseQuatro {
+    margin-bottom: 10px;
+    animation-delay: 14.5s;
+}
+
+.seis_faseQuatro {
+    animation-delay: 16.5s;
+}
+
+.seisCont_faseQuatro {
+    margin-bottom: 10px;
+    animation-delay: 20.5s;
+}
+
+.sete_faseQuatro {
+    margin-bottom: 10px;
+    animation-delay: 23.5s;
+}
+
+/* Quarta Fase Cont */
+
+.oito_faseQuatro {
+    margin-bottom: 10px;
+}
+
+.nove_faseQuatro {
+    margin-bottom: 10px;
+    animation-delay: 1s;
+}
+
+.dez_faseQuatro {
+    margin-bottom: 10px;
+    animation-delay: 1.5s;
+}
+
+.onze_faseQuatro {
+    margin-bottom: 10px;
+    animation-delay: 4.5s;
+}
+
+.doze_faseQuatro {
+    animation-delay: 7s;
+}
+.dozeCont_faseQuatro{
+    margin-bottom: 10px;
+    animation-delay: 11s;
+}
+
+.treze_faseQuatro{
+    margin-bottom: 10px;
+    animation-delay: 14.5s;
+}
+
+.quatorze_faseQuatro {
+    margin-bottom: 10px;
+    animation-delay: 18.5s;
+}
+
+.quinze_faseQuatro {
+    margin-bottom: 10px;
+    animation-delay: 20s;
+}
+
+/* Quinta Fase */
+
+.um_faseCinco {
+    margin-bottom: 10px;
+}
+
+.dois_faseCinco {
+    margin-bottom: 10px;
+    animation-delay: 3s;
+}
+
+.tres_faseCinco {
+    margin-bottom: 10px;
+    animation-delay: 4s;
+}
+
+.quatro_faseCinco {
+    animation-delay: 5.5s;
+}
+
+.quatroCont_faseCinco {
+    margin-bottom: 10px;
+    animation-delay: 9.5s;
+}
+
+.cinco_faseCinco {
+    margin-bottom: 10px;
+    animation-delay: 10s;
+}
+
+.seis_faseCinco {
+    margin-bottom: 10px;
+    animation-delay: 13.5s;
+}
+
+/* Quinta Fase Cont */
+
+.sete_faseCinco {
+    margin-bottom: 10px;
+}
+
+.oito_faseCinco {
+    margin-bottom: 10px;
+    animation-delay: 1s;
+}
+
+.nove_faseCinco {
+    margin-bottom: 10px;
+    animation-delay: 2s;
+}
+
+.dez_faseCinco {
+    margin-bottom: 10px;
+    animation-delay: 4.5s;
+}
+
+.onze_faseCinco {
+    margin-bottom: 10px;
+    animation-delay: 7.5s;
+}
+
+.doze_faseCinco {
+    margin-bottom: 10px;
+    animation-delay: 10s;
+}
+
+/* Quinta Fase Cont Dois */
+
+.treze_faseCinco {
+    margin-bottom: 10px;
+}
+
+.quatorze_faseCinco {
+    margin-bottom: 10px;
+    animation-delay: 1s;
+}
+
+.quinze_faseCinco {
+    margin-bottom: 10px;
+    animation-delay: 2s;
+}
+
+.dezesseis_faseCinco {
+    margin-bottom: 10px;
+    animation-delay: 3.5s;
+}
+
+.dezessete_faseCinco {
+    animation-delay: 5.5s;
+}
+
+.dezesseteCont_faseCinco {
+    margin-bottom: 10px;
+    animation-delay: 9.5s;
+}
+
+.dezoito_faseCinco {
+    margin-bottom: 10px;
+    animation-delay: 11s;
+}
+
+/* Quinta Fase Cont Tres */
+
+.dezenove_faseCinco {
+
+}
+
+.dezenoveCont_faseCinco {
+    margin-bottom: 10px;
+    animation-delay: 4s;
+}
+
+.vinte_faseCinco {
+    animation-delay: 5s;
+}
+
+.vinteCont_faseCinco {
+    margin-bottom: 10px;
+    animation-delay: 9s;
+}
+
+.vinteUm_faseCinco {
+    animation-delay: 10s;
+}
+
+.vinteUmCont_faseCinco {
+    margin-bottom: 10px;
+    animation-delay: 14s;
+}
+
+.vinteDois_faseCinco {
+    animation-delay: 15.5s;
+}
+
+.vinteDoisCont_faseCinco {
+    animation-delay: 19.5s;
+}
+
+.vinteDoisContDois_faseCinco {
+    margin-bottom: 10px;
+    animation-delay: 23.5s;
+}
+
+.vinteTres_faseCinco {
+    margin-bottom: 10px;
+    animation-delay: 24.5s;
+}
+
+.vinteQuatro_faseCinco {
+    margin-bottom: 10px;
+    animation-delay: 27s;
+}
+
+.vinteCinco_faseCinco {
+    margin-bottom: 10px;
+    animation-delay: 30.5s;
+}
+
+.vinteSeis_faseCinco {
+    margin-bottom: 10px;
+    animation-delay: 32s;
+}
+
+.vinteSete_faseCinco {
+    margin-bottom: 10px;
+    animation-delay: 36s;
+}
+
+/* Quinta Fase Cont Quatro */
+
+.vinteOito_faseCinco {
+
+}
+
+.vinteOitoCont_faseCinco {
+    margin-bottom: 10px;
+    animation-delay: 4s;
+}
+
+.vinteNove_faseCinco {
+    margin-bottom: 10px;
+    animation-delay: 6.5s;
+}
+
+.trinta_faseCinco {
+    margin-bottom: 10px;
+    animation-delay: 7.5s;
+}
+
+.trintaUm_faseCinco {
+    margin-bottom: 10px;
+    animation-delay: 9.5s;
+}
+
+.trintaDois_faseCinco {
+    animation-delay: 11s;
+}
+
+.trintaTres_faseCinco {
+    margin-bottom: 10px;
+    animation-delay: 15s;
+}
+
+.trintaQuatro_faseCinco {
+    margin-bottom: 10px;
+    animation-delay: 16s;
+}
+
+.trintaCinco_faseCinco {
+    margin-bottom: 10px;
+    animation-delay: 20s;
+}
+
+.trintaSeis_faseCinco {
+    margin-bottom: 10px;
+    animation-delay: 21s;
+}
+
+/* Escolha Final */
+
+.um_escolhaFinal {
+    margin-bottom: 10px;
+}
+
+.dois_escolhaFinal {
+    margin-bottom: 10px;
+    animation-delay: 2.5s;
+}
+
+.tres_escolhaFinal{
+    margin-bottom: 10px;
+    animation-delay: 5.5s;
+}
+
+.quatro_escolhaFinal {
+    animation-delay: 8s;
+}
+
+.quatroCont_escolhaFinal{
+    margin-bottom: 10px;
+    animation-delay: 12s;
+}
+
+.cinco_escolhaFinal {
+    margin-bottom: 10px;
+    animation-delay: 15s;
+}
+
+.seis_escolhaFinal {
+    margin-bottom: 10px;
+    animation-delay: 17s;
+}
+
+.sete_escolhaFinal {
+    animation-delay: 20s;
+}
+
+.seteCont_escolhaFinal {
+    margin-bottom: 10px;
+    animation-delay: 24s;
+}
+
+.oito_escolhaFinal {
+    margin-bottom: 10px;
+    animation-delay: 25s;
+}
+
+.nove_escolhaFinal {
+    margin-bottom: 10px;
+    animation-delay: 27s;
+}
+
+.dez_escolhaFinal {
+    animation-delay: 28s;
+}
+
+.dezCont_escolhaFinal {
+    margin-bottom: 10px;
+    animation-delay: 32s;
+}
+
+.onze_escolhaFinal {
+    animation-delay: 33s;
+}
+
+.onzeCont_escolhaFinal {
+    margin-bottom: 10px;
+    animation-delay: 37s;
+}
+
+/* Escolha Final Cont */
+
+.doze_escolhaFinal {
+
+}
+
+.dozeCont_escolhaFinal {
+    margin-bottom: 10px;
+    animation-delay: 4s;
+}
+
+.treze_escolhaFinal {
+    margin-bottom: 10px;
+    animation-delay: 7s;
+}
+
+.quatorze_escolhaFinal {
+    animation-delay: 10s;
+}
+
+.quatorzeCont_escolhaFinal {
+    margin-bottom: 10px;
+    animation-delay: 14s;
+}
+
+.quinze_escolhaFinal {
+    margin-bottom: 10px;
+    animation-delay: 18s;
+}
+
+.dezesseis_escolhaFinal {
+    animation-delay: 21s;
+}
+
+.dezesseisCont_escolhaFinal {
+    margin-bottom: 10px;
+    animation-delay: 25s;
+}
+
+/* Escolha Final Cont Dois */
+
+.dezesete_escolhaFinal {
+
+}
+
+.dezeseteCont_escolhaFinal {
+    margin-bottom: 10px;
+    animation-delay: 4s;
+}
+
+.dezoito_escolhaFinal {
+    animation-delay: 7.5s;
+}
+
+.dezoitoCont_escolhaFinal {
+    margin-bottom: 10px;
+    animation-delay: 11.5s;
+}
+
+.dezenove_escolhaFinal {
+    animation-delay: 15.5s;
+}
+
+.dezenoveCont_escolhaFinal {
+    margin-bottom: 10px;
+    animation-delay: 19.5s;
+}
+
+.vinte_escolhaFinal {
+    animation-delay: 20s;
+}
+
+.vinteCont_escolhaFinal {
+    margin-bottom: 10px;
+    animation-delay: 24s;
+}
+
+.vinteUm_escolhaFinal {
+    animation-delay: 25.5s;
+}
+
+.vinteUmCont_escolhaFinal {
+    margin-bottom: 10px;
+    animation-delay: 29.5s;
+}
+
+.vinteDois_escolhaFinal {
+    margin-bottom: 10px;
+    animation-delay: 31.5s;
+}
+
+.vinteTres_escolhaFinal {
+    margin-bottom: 10px;
+    animation-delay: 32s;
+}
+
+/* Fim Eve */
+
+.um_fim {
+    
+}
+
+.dois_fim {
+    margin-bottom: 10px;
+    animation-delay: 4s;
+}
+
+.tres_fim {
+    animation-delay: 6s;
+}
+
+.tresCont_fim {
+    margin-bottom: 10px;
+    animation-delay: 10s;
+}
+
+.quatro_fim {
+    margin-bottom: 10px;
+    animation-delay: 11.5s;
+}
+
+.cinco_fim {
+    margin-bottom: 10px;
+    animation-delay: 13s;
+}
+
+.seis_fim {
+    margin-bottom: 10px;
+    animation-delay: 16s;
+}
+
+.sete_fim {
+    margin-bottom: 10px;
+    animation-delay: 17s;
+}
+
+.oito_fim {
+    margin-bottom: 10px;
+    animation-delay: 18.5s;
+}
+
+.nove_fim {
+    margin-bottom: 10px;
+    animation-delay: 20s;
+}
+
+.dez_fim {
+    margin-bottom: 10px;
+    animation-delay: 21.5s;
+}
+
+.onze_fim {
+    margin-bottom: 10px;
+    animation-delay: 23s;
+}
+
+/* Fim Cont */
+
+.doze_fim {
+
+}
+
+.dozeCont_fim {
+    animation-delay: 4s;
+}
+
+.dozeContDois_fim {
+    margin-bottom: 10px;
+    animation-delay: 8s;
+}
+
+.treze_fim {
+    margin-bottom: 10px;
+    animation-delay: 10s;
+}
+
+.quatorze_fim {
+    animation-delay: 12s;
+}
+
+.quatorzeCont_fim {
+    margin-bottom: 10px;
+    animation-delay: 16s;
+}
+
+.quinze_fim {
+    margin-bottom: 10px;
+    animation-delay: 20s;
+}
+
+.dezesseis_fim {
+    margin-bottom: 10px;
+    animation-delay: 23s;
+}
+
+.dezesete_fim {
+    margin-bottom: 10px;
+    animation-delay: 25s;
+}
+
+.dezoito_fim {
+    animation-delay: 29s;
+}
+
+.dezoitoCont_fim {
+    margin-bottom: 10px;
+    animation-delay: 33s;
+}
+
+.dezenove_fim {
+    margin-bottom: 10px;
+    animation-delay: 36s;
+}
+
+.vinte_fim {
+    margin-bottom: 10px;
+    animation-delay: 37.5s;
+}
+
+.vinteUm_fim {
+    margin-bottom: 10px;
+    animation-delay: 39.5s;
+}
