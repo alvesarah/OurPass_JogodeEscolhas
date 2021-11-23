@@ -6,6 +6,7 @@ function faseUm() {
 
         alert('Escolha invalida');
         escolhaFaseUm = prompt("1 - Começo a revirar meu quarto a procura de alguma coisa que seja familiar a algo que tenha visto no sonho.\n2 - Tento fechar os olhos e me esforçar para recordar algo do sonho.");
+        break;
 
     }
         
@@ -14,7 +15,7 @@ function faseUm() {
         window.location.href = "https://sashamoon.github.io/OurPass_JogodeEscolhas/";
     }
     else if ( escolhaFaseUm == 2) {
-         window.location.href = "./segundaFase_eve.html"
+        window.location.href = "./segundaFase_eve.html"
     }
     else {
         alert('Escolha um número válido!');
@@ -29,6 +30,7 @@ function faseDois() {
 
         alert('Escolha invalida');
         escolhaFaseDois = prompt("1 - Procurar alguma evidência na sala.\n2 - Tentar achar alguma evidência no meu quarto.");
+        break;
 
     }
         
@@ -52,6 +54,7 @@ function faseTres() {
 
         alert('Escolha invalida');
         escolhaFaseTres = prompt("1 - É melhor não lê-lo, vai que não é meu.\n2 - Vou ler só um pouquinho.");
+        break;
 
     }
         
@@ -75,6 +78,7 @@ function faseQuatro() {
 
         alert('Escolha invalida');
         escolhaFaseQuatro = prompt("1 - Conversar com ele e descobrir mais sobre sua história.\n2 - Parar de falar com ele I-M-E-D-I-A-T-A-M-E-N-T-E.");
+        break;
 
     }
         
@@ -98,6 +102,7 @@ function faseCinco() {
 
         alert('Escolha invalida');
         escolhaFaseCinco = prompt("1 - Me vingar de Ryon.\n2 - Pensar com clareza e ver se vale a pena correr o risco.");
+        break;
 
     }
         
@@ -121,6 +126,7 @@ function escolhaFinal() {
 
         alert('Escolha invalida');
         escolhaFinal = prompt("1 - Tento pensar em algo que me traga forças.\n2 - Tento me mexer.");
+        break;
 
     }
         

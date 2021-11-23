@@ -6,6 +6,7 @@ function faseUm() {
 
         alert('Escolha invalida');
         escolhaFaseUm = prompt("1 - Caminho da direita\n2 - Caminho da esquerda");
+        break;
 
     }
         
@@ -29,7 +30,8 @@ function faseDois(){
     while(escolhaFaseDois != 1 && escolhaFaseDois != 2){
 
         alert('Escolha invalida');
-        escolhaFaseDois = prompt("1 - Caminho da direita\n2 - Caminho da esquerda")   ; 
+        escolhaFaseDois = prompt("1 - Caminho da direita\n2 - Caminho da esquerda");
+        break; 
 
     }
 
@@ -54,7 +56,8 @@ function faseTres(){
     while(escolhaFaseTres != 1 && escolhaFaseTres != 2){
 
         alert('Escolha invalida');
-        escolhaFaseTres = prompt("1 - Impedi-la de me acertar.\n2 - Tentar controlar Ryon com minha habilidade.")   ; 
+        escolhaFaseTres = prompt("1 - Impedi-la de me acertar.\n2 - Tentar controlar Ryon com minha habilidade.");
+        break;
 
     }
 
@@ -79,7 +82,8 @@ function escolhaFinal(){
     while(escolhaFinal != 1 && escolhaFinal != 2){
 
         alert('Escolha invalida');
-        escolhaFinal = prompt("1 - Caminho da direita\n2 - Caminho da esquerda")   ; 
+        escolhaFinal = prompt("1 - Caminho da direita\n2 - Caminho da esquerda");
+        break; 
 
     }
 

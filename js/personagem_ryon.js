@@ -6,6 +6,7 @@ function faseUm() {
 
         alert('Escolha invalida');
         escolhaFaseUm = prompt("1 - Voltar para a cidade onde eu acordei no hospital.\n2 - Procurar o amigo que me abandonou.");
+        break;
 
     }
         
@@ -29,6 +30,7 @@ function faseDois() {
 
         alert('Escolha invalida');
         escolhaFaseDois = prompt("1 - Uma rua que parece estranhamente familiar.\n2 - O caminho para o hospital.");
+        break;
 
     }
         
@@ -52,6 +54,7 @@ function faseTres() {
 
         alert('Escolha invalida');
         escolhaFaseTres = prompt("1 - Terminar o que começou.\n2 - Deixar isso para lá e não vingar o pai.");
+        break;
 
     }
         
