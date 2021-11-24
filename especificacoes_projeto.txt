@@ -2,50 +2,50 @@
 
 - Ter no minimo 3 fases para cada personagem -----> OK
 
-- Os textos e narrativas devem estar todas no HTML
+- Os textos e narrativas devem estar todas no HTML ------> OK
 
-- É preciso ter um "while" para fazer a verificação da entrada
+- É preciso ter um "while" para fazer a verificação da entrada ------> OK
 
-- Deve-se ter estruturas condicionais a cada prompt
+- Deve-se ter estruturas condicionais a cada prompt ------> OK
 
-- Cada fase deve ser implementada em arquivos diferentes
+- Cada fase deve ser implementada em arquivos diferentes -------> OK
 
-- As estruturas condicionais devem ficar em funções no JS
+- As estruturas condicionais devem ficar em funções no JS -------> OK
 
-- Tem que estar no repósitorio do GitHub
+- Tem que estar no repósitorio do GitHub -------> OK
 
 - Ter apresentação de slides
 
 
-
-
-
 Adições Importantes:
 
-- Alt em todas as imagens
+- Alt em todas as imagens  ----- OK
 
-- colocar links no header
+- colocar links no header ------ OK
 
-- ajeitar modal ----> OK
+- ajeitar modal ---- OK
 
-- Nos arquivos das fases, consertar o link css de introdução
+- Nos arquivos das fases, consertar o link css de introdução ------ OK
 
-- Fazer botões de animação no "clique para continuar"
+- Fazer botões de animação no "clique para continuar" --------- ok
 
-- Alterar estilização do botão de escolhas das fases
+- Alterar estilização do botão de escolhas das fases   ----------- OK
 
-- texto de todas as páginas estão cortando, diminuir eles
+- texto de todas as páginas estão cortando, diminuir eles ------ OK
 
 - mudar o "escolhaFaseUm" no css para outro nome (fases_draken) ---- OK
 
-- alinhar botões com personagens (escolhaPersonagem)
-
-- colocar um alert falando que passou de fase
-
-- mudar botões de escolha de decisão
+- alinhar botões com personagens (escolhaPersonagem) ------- OK
 
 - title da aba do navegador está errada (Draken)
 
+- colocar número nas imagens ------ OK
+
+- Mudar foto estacao Draken ------ OK
+
+- Deixar músicas baixas por padrão ------- OK
+
+- Deixar jogo responsivo
 
 slide
 

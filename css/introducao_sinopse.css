@@ -1,5 +1,5 @@
 .main__section {
-    height: 70vh;
+    height: auto;
 }
 
 .main__section-h3 {
@@ -14,7 +14,7 @@
     overflow: hidden;
     max-width: 0;
     font-family: var(--specialElite);
-    font-size: 1.5em;
+    font-size: 20px;
     animation: typing normal 4s steps(60) both;
 
     margin: 0 auto;
@@ -55,6 +55,8 @@
 }
 
 .main__div {
+    margin-top: 10%;
+
     display: flex;
     justify-content: center;
 }
@@ -62,5 +64,40 @@
 @keyframes typing {
     100% {
         max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    body{
+        height: 100vh;
+
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    /* CONTEÚDO */
+    .main {
+        height: 100vh;
+        /* margin: 2%; */
+        border: none;
+    }
+
+    /* SINOPSE */
+    .main__section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .animacao {
+        white-space: pre-wrap;
+        overflow: none;
+        max-width: none;
+        font-family: var(--specialElite);
+        font-size: 14px;
+        animation: none;
+        width: 100%;
+    
+        text-align: center;
     }
 }

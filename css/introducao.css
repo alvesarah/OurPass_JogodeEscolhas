@@ -133,3 +133,53 @@ body {
     font-family: var(--courier);
     font-size: 12px;
 }
+
+@media screen and (max-width: 700px) {
+    body{
+        height: 100vh;
+    }
+    
+    /* HEADER */
+    .header {
+        flex-direction: column;
+    }
+    
+    .header__titulo {
+        display: none;
+    }
+
+    .header__ul {
+        flex-direction: column;
+    }
+
+    /* CONTEÚDO */
+    .main {
+        height: 80vh;
+        margin: 2%;
+        border: none;
+    }
+
+    /* INTRODUÇÃO */
+    .response {
+        background: none;
+        background-image: url(../imagens/background_intro.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .main__figure {
+        background-image: none;
+    
+        display: flex;
+        justify-content: center;
+    }
+
+    /* FOOTER */
+    .footer__div-h1 {
+        display: none;
+    }
+
+    .footer__div {
+        flex-direction: column;
+    }
+}

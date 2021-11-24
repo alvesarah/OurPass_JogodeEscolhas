@@ -8,6 +8,27 @@
     justify-content: center;
 }
 
+.animacao {
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 0;
+    font-family: var(--specialElite);
+    font-size: 17px;
+    animation: typing normal 4s steps(60) both;
+}
+
+@keyframes typing {
+    100% {
+        max-width: 100%;
+    }
+}
+
+.botaoEscolhas_button {
+    width: 100px;
+    margin-left: 45%;
+}
+
+/* Altura img */
 .tamanho_padrao {
     height: 40%;
 }
@@ -32,27 +53,13 @@
     height: 40%;
 }
 
-.animacao {
-    white-space: nowrap;
-    overflow: hidden;
-    max-width: 0;
-    font-family: var(--specialElite);
-    font-size: 17px;
-    animation: typing normal 4s steps(60) both;
-}
-
-@keyframes typing {
-    100% {
-        max-width: 100%;
-    }
-}
-
-.botaoEscolhas_button {
-    width: 100px;
-    margin-left: 45%;
-}
-
 /* Background Image Fases */
+.background_introducao {
+    background-image: url("../imagens/cenarios/cenario_sangue.jpg");
+    height: 100%;
+    background-size: 100% 75%;
+}
+
 .background_faseUm {
     background-image: url("../imagens/cenarios/cenario_porta_metal.jpg");
     height: 100%;
@@ -60,8 +67,9 @@
 }
 
 .background_faseDois {
-    background-image: url("../imagens/cenarios/estacao_trem_dia.jpg");
-    height: 88vh;
+    background-image: url("../imagens/cenarios/cenario_estacao_trem.jpg");
+    height: 100%;
+    background-size: 100% 75%;
 }
 
 .background_faseDoisCont {
@@ -629,4 +637,69 @@
 .main__pSeisContDois-fim_draken {
     margin-bottom: 10px;
     animation-delay: 29s;
+}
+
+@media screen and (max-width: 700px) {
+    body{
+        height: 110vh;
+
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    /* CONTEÚDO */
+    .main {
+        height: 100vh;
+        /* margin: 2%; */
+        border: none;
+    }
+
+    /* SINOPSE */
+    .main__section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Altura img */
+    .tamanho_padrao {
+        height: 70%;
+    }
+
+    .teste_padrao {
+        height: 30%;
+    }
+
+    .tamanho_maior {
+        height: 90%;
+    }
+
+    .teste_maior {
+        height: 10%;
+    }
+
+    .tamanho_maior_ainda {
+        height: 100%;
+    }
+
+    .teste_maior_ainda {
+        height: 0;
+    }
+
+    .botaoEscolhas_button {
+        width: 100px;
+        margin-left: 30%;
+    }
+
+    .animacao {
+        white-space: pre-wrap;
+        overflow: none;
+        max-width: none;
+        font-family: var(--specialElite);
+        font-size: 14px;
+        animation: none;
+        width: 100%;
+    
+        text-align: center;
+    }
 }

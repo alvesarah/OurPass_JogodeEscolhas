@@ -64,6 +64,11 @@
     justify-content: center;
 }
 
+.main__p {
+    margin-top: 20px;
+    text-align: center;
+}
+
 .botaoEscolha {
     margin: 30px 0;
 }
@@ -173,4 +178,39 @@
 
 .container {
     padding: 2px 16px;
+}
+
+@media screen and (max-width: 700px) {
+    body{
+        height: 100vh;
+
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    /* CONTEÚDO */
+    .main {
+        height: 100vh;
+        /* margin: 2%; */
+        border: none;
+    }
+
+    /* SINOPSE */
+    .main__section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .main__div-personagens-div {
+        /* padding: 2px 16px; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botaoEscolha {
+        margin: 5px 0;
+    }
 }

@@ -9,14 +9,14 @@
     overflow: hidden;
     max-width: 0;
     font-family: var(--specialElite);
-    font-size: 1.2em;
+    font-size: 17px;
     animation: typing normal 4s steps(60) both;
 }
 
 .main__section {
-    height: 87vh;
-    margin-left: 20px;
-    
+    padding: 0 20px;
+    background-color: white;
+
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -31,11 +31,143 @@
     display: block;
 }
 
-/* Introdução Eve */
-.um_intro{
-    
+.botaoEscolhas_button {
+    width: 100px;
+    margin-left: 45%;
+    margin-bottom: 10px;
 }
 
+/* Altura img */
+.tamanho_padrao {
+    height: 40%;
+}
+
+.teste_padrao {
+    height: 60%;
+}
+
+.tamanho_menor {
+    height: 30%;
+}
+
+.teste_menor {
+    height: 70%;
+}
+
+.tamanho_maior {
+    height: 50%;
+}
+
+.teste_maior {
+    height: 50%;
+}
+
+.tamanho_maior_ainda {
+    height: 60%;
+}
+
+.teste_maior_ainda {
+    height: 40%;
+}
+
+/* Background Image Fases */
+.background_introducao {
+    background-image: url("../imagens/cenarios/cenario_quarto_hospital.jpg");
+    height: 100%;
+    background-size: 100% 75%;
+}
+
+.background_faseUm {
+    background-image: url("../imagens/cenarios/cenario_cama.jpg");
+    height: 100%;
+    background-size: 100% 75%; 
+}
+
+.background_faseDois {
+    background-image: url("../imagens/cenarios/cenario_quarto_dia.jpg");
+    height: 100%;
+    background-size: 100% 75%;
+}
+
+.background_faseTres {
+    background-image: url("../imagens/cenarios/cenario_sala_dia.jpg");
+    height: 100%;
+    background-size: 100% 75%;
+}
+
+.background_faseQuatro {
+    background-image: url("../imagens/cenarios/cenario_sala_aula.jpg");
+    height: 100%;
+    background-size: 100% 75%;
+}
+
+.background_quartaFaseCont {
+    background-image: url("../imagens/cenarios/cenario_corredor_escola.jpg");
+    height: 100%;
+    background-size: 100% 75%;
+}
+
+.background_faseCinco {
+    background-image: url("../imagens/cenarios/cenario_telhado_escola.jpg");
+    height: 100%;
+    background-size: 100% 75%;
+}
+
+.background_faseCincoCont {
+    background-image: url("../imagens/cenarios/cenario_praca2.jpg");
+    height: 100%;
+    background-size: 100% 75%;
+}
+
+.background_faseCincoContDois {
+    background-image: url("../imagens/cenarios/cenario_casafora_entardecer.jpg");
+    height: 100%;
+    background-size: 100% 75%;
+}
+
+.background_quintaFaseContTres {
+    background-image: url("../imagens/cenarios/cenario_sol.jpg");
+    height: 100%;
+    background-size: 100% 50%;
+}
+
+.background_faseCincoContQuatro {
+    background-image: url("../imagens/cenarios/cenario_casa_noite_movimento.gif");
+    height: 100%;
+    background-size: 100% 75%;
+}
+
+.background_escolhaFinal {
+    background-image: url("../imagens/cenarios/cenario_corredor_noite.jpg");
+    height: 100%;
+    background-size: 100% 50%;
+}
+
+.background_escolhaFinalCont {
+    background-image: url("../imagens/cenarios/cenario_sala_dia.jpg");
+    height: 100%;
+    background-size: 100% 75%;
+}
+
+.background_EscolhaFinalContDois {
+    background-image: url("../imagens/cenarios/cenario_sala_dia.jpg");
+    height: 100%;
+    background-size: 100% 75%;
+}
+
+.background_fim {
+    background-image: url("../imagens/cenarios/cenario_sala_dia.jpg");
+    height: 100%;
+    background-size: 100% 75%;
+}
+
+.background_fimCont {
+    background-image: url("../imagens/cenarios/cenario_sala_dia.jpg");
+    height: 100%;
+    background-size: 100% 50%;
+}
+
+/* Introdução Eve */
 .umCont_intro{
     margin-bottom: 10px;
     animation-delay: 3.5s;
@@ -770,4 +902,79 @@
 .vinteUm_fim {
     margin-bottom: 10px;
     animation-delay: 39.5s;
+}
+
+
+@media screen and (max-width: 700px) {
+    body{
+        height: 110vh;
+
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    /* CONTEÚDO */
+    .main {
+        height: 100vh;
+        /* margin: 2%; */
+        border: none;
+    }
+
+    /* SINOPSE */
+    .main__section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Altura img */
+    .tamanho_padrao {
+        height: 60%;
+    }
+
+    .teste_padrao {
+        height: 40%;
+    }
+
+    .tamanho_menor {
+        height: 35%;
+    }
+    
+    .teste_menor {
+        height: 65%;
+    }
+    
+
+    .tamanho_maior {
+        height: 70%;
+    }
+
+    .teste_maior {
+        height: 30%;
+    }
+
+    .tamanho_maior_ainda {
+        height: 100%;
+    }
+
+    .teste_maior_ainda {
+        height: 0;
+    }
+
+    .botaoEscolhas_button {
+        width: 100px;
+        margin-left: 30%;
+    }
+
+    .animacao {
+        white-space: pre-wrap;
+        overflow: none;
+        max-width: none;
+        font-family: var(--specialElite);
+        font-size: 14px;
+        animation: none;
+        width: 100%;
+    
+        text-align: center;
+    }
 }
