@@ -1,0 +1,20 @@
+.body {
+    height: 100vh;
+    background-image: url("../imagens/game_over.gif");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: auto;
+}
+
+.main__h1 {
+    text-align: center;
+    margin-top: 20%;
+    font-size: 100px;
+    color: white;
+}

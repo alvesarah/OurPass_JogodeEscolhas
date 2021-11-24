@@ -1,5 +1,5 @@
 function faseUm() {
-    alert("Digite apenas o número!");
+    alert("Digite apenas o número da escolha desejada.");
     var escolhaFaseUm = prompt("1 - Caminho da direita\n2 - Caminho da esquerda");
          
     while(escolhaFaseUm != 1 && escolhaFaseUm != 2){
@@ -12,7 +12,7 @@ function faseUm() {
         
     if(escolhaFaseUm == 1) {
         alert("Você perdeu! Draken seguiu esse caminho e não conseguiu as respostas que procurava.");
-        window.location.href = "https://sashamoon.github.io/OurPass_JogodeEscolhas/";
+        window.location.href = "../game_over.html";
     }
     else if ( escolhaFaseUm == 2) {
         window.location.href = "./segundaFase_draken.html"
@@ -24,7 +24,7 @@ function faseUm() {
    
 function faseDois(){
    
-    alert("Digite apenas o número!");
+    alert("Digite apenas o número da escolha desejada.");
     var escolhaFaseDois = prompt("1 - Da casa dela\n2- Da praça onde eu estava a esperando");
 
     while(escolhaFaseDois != 1 && escolhaFaseDois != 2){
@@ -37,7 +37,7 @@ function faseDois(){
 
     if(escolhaFaseDois == 1) {
         alert("Você perdeu! Draken seguiu esse caminho e não conseguiu as respostas que procurava.");
-        window.location.href = "https://sashamoon.github.io/OurPass_JogodeEscolhas/";
+        window.location.href = "../game_over.html";
     }
     else if ( escolhaFaseDois == 2) {
         window.location.href = "./terceiraFase_draken.html";
@@ -50,7 +50,7 @@ function faseDois(){
 
 function faseTres(){
    
-    alert("Digite apenas o número!");
+    alert("Digite apenas o número da escolha desejada.");
     var escolhaFaseTres = prompt("1 - Impedi-la de me acertar.\n2 - Tentar controlar Ryon com minha habilidade.");
 
     while(escolhaFaseTres != 1 && escolhaFaseTres != 2){
@@ -66,7 +66,7 @@ function faseTres(){
     }
     else if ( escolhaFaseTres == 2) {
         alert("Você perdeu! Ryon não estava te olhando, logo Eve conseguiu te acertar com o soco.");
-        window.location.href = "https://sashamoon.github.io/OurPass_JogodeEscolhas/";
+        window.location.href = "../game_over.html";
     }
     else {
         alert('Escolha um número válido!');
@@ -76,7 +76,7 @@ function faseTres(){
 
 function escolhaFinal(){
    
-    alert("Digite apenas o número!");
+    alert("Digite apenas o número da escolha desejada.");
     var escolhaFinal = prompt("1 - Apagar memória de ambos e morrer\n2 - Tentar matar Ryon e morrer");
 
     while(escolhaFinal != 1 && escolhaFinal != 2){
@@ -92,7 +92,7 @@ function escolhaFinal(){
     }
     else if ( escolhaFinal == 2) {
         alert("Você perdeu! Você tentou matar Ryon, porém não conseguiu pois estava muito fraco, você morreu e Eve também.");
-        window.location.href = "https://sashamoon.github.io/OurPass_JogodeEscolhas/";
+        window.location.href = "../game_over.html";
     }
     else {
         alert('Escolha um número válido!');

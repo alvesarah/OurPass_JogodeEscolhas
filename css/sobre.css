@@ -1,0 +1,59 @@
+body {
+    overflow-x: 0;
+}
+
+.main__section{
+
+}
+
+.main__h1 {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 30px;
+    font-family: var(--montagu);
+}
+
+.main__div {
+    margin: 0 30px;
+}
+
+.main__div p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.main__h2 {
+    text-align: center;
+}
+
+.main__h3 {
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+
+.social {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__h6 {
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.main__ul {
+    display: flex;
+}
+
+.main__li {
+    list-style: none;
+    margin: 10px;
+}
+
+.img_linkedin, .img_github {
+    width: 20px;
+    height: 20px;
+}

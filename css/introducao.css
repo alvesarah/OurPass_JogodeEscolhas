@@ -71,7 +71,7 @@ body {
     height: 45vw;
     margin: 2%;
     border: 2px solid black;
-    background: white;
+    background: rgba(255, 255, 255, 0.5);
 }
 
 .main__figure {

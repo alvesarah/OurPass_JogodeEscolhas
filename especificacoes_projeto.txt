@@ -45,7 +45,21 @@ Adições Importantes:
 
 - Deixar músicas baixas por padrão ------- OK
 
-- Deixar jogo responsivo
+- Deixar jogo responsivo --------> OK
+
+- link do game over -------> OK
+
+- bloquear o voltar e proxima páginas  --------> Não vou mais
+
+- colocar músicas ryon e eve ----> OK
+
+- Fazer o sobre (Jogo do primeiro módulo resilia, etc)
+
+- ajustar volume com js
+
+- primeiraFase Ryon ----> OK
+
+- estilizar botões ------> OK
 
 slide
 
