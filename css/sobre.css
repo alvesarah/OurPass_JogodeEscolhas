@@ -1,5 +1,5 @@
 body {
-    overflow-x: 0;
+    overflow-x: hidden;
 }
 
 .main__section{
@@ -33,7 +33,6 @@ body {
 
 .social {
     margin-top: 20px;
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -56,4 +55,36 @@ body {
 .img_linkedin, .img_github {
     width: 20px;
     height: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        overflow-x: hidden;
+        min-height: 120vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .main__section{
+        height: 70vh;
+        margin: 2%;
+    }
+
+    .main__h1 {
+        font-size: 18px;
+    }
+
+    .main__h2 {
+        font-size: 16px;
+    }
+
+    .main__div p {
+        font-size: 14px;
+    }
+    
+    .main__h3 {
+        margin: 5px 0 5px 0;
+    }
+
 }
